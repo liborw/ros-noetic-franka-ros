@@ -63,7 +63,6 @@ build() {
         --source ${srcdir}/franka_ros-${pkgver} \
         --install-space /opt/ros/noetic \
         --cmake-args \
-        -DCMAKE_BUILD_TYPE=Release \
         -DCATKIN_BUILD_BINARY_PACKAGE=ON \
         -DPYTHON_EXECUTABLE=/usr/bin/python \
         -DSETUPTOOLS_DEB_LAYOUT=OFF
